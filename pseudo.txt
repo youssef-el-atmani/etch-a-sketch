@@ -1,0 +1,16 @@
+##Plan##
+    create a universal container that will contain:
+        btn             : For setting the grid size by user
+        boxes-container   : That will contain the tiny-boxes
+                            Its size 960px*960px
+
+        Note: they will be aligned vertically,
+              they will be centered
+
+    
+    box-container  will INITIALLY have 16*16 grid
+    WHEN the box-container will be hovered
+        the hovered tiny-boxes will changed their color to black
+
+    WHEN user will click on "RESIZE btn", and enter a number that: 0 < num <= 100
+        the Grid will have the (num*num) resolution
