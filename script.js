@@ -35,16 +35,6 @@ function getNewGridSize(){
     return newGridSize;
 }
 
-function getGridSizeAndDrawIt(){
-    let gridSize = +prompt("Change the grid size:\n Your number should fall in ]0, 100] interval");
-    while((gridSize <= 0) || (gridSize > 100) || (Number.isInteger(gridSize) === false))
-    {
-        gridSize = +prompt('Invalid number, your number should be an Integer that is greater than 0 and less or equal to 100');
-    }
-    alert(`Your grid size: ${gridSize}`);
-    createGrid(gridSize);
-}
-
 function createGrid(gridSize)
 {
     for(let i = 0; i < gridSize; i++){
