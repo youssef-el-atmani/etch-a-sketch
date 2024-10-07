@@ -46,5 +46,24 @@
                         append that tiny-box in the current wideBox
                     EndFor
             EndFor
+
+            Iterate over wideBoxesHolder array
+                append each wide-box to boxesContainer
             
     
+
+#Notes#
+change .boxesContainer to ID, and give it white background
+
+#Grid Resize#
+    HTML:create a button and give it a class "resize"
+    create a const named resizeBtn
+
+    create a var named gridSize
+    when that button clicked
+        remove all the wideBoxes from the DOM
+        Free Up the wideBoxesHolder array
+        get newGrid size from user
+            and store it in gridSize var
+        Call the createGrid() function
+            pass to it `gridSize` as argument
