@@ -14,3 +14,37 @@
 
     WHEN user will click on "RESIZE btn", and enter a number that: 0 < num <= 100
         the Grid will have the (num*num) resolution
+
+## PseudoCode ##
+    *HTML*
+        Create a universal container
+            Create a button and name it "RESIZE"
+                add a class to it named "resize"
+            Create a div, and give it a "boxesContainer" class
+
+    *JS*
+        create a const var named resizingBtn and initialize it with the "btn element"
+        create a const var named boxesContainer and initialize it with the "boxesContainer-elem"
+        create a const array named wideBoxesHolder that will store the wide boxes
+
+        create a function named createGrid that takes a positive integer num as argument.
+            that function, creates num*num grid inside the boxesContainer element
+            also, make each tiny-box responsive to hovering
+                when hovered: change the color to "black"
+
+        call createGrid() with "16"
+
+
+        define createGrid() that will take num as an argument
+            FOR num times
+                creates a wideBox
+                add necessary classes to that wideBox
+                    For num times
+                        create a tiny-box
+                        add the necessary classes to it
+                        add the responsive behavior for tiny-box
+                        append that tiny-box in the current wideBox
+                    EndFor
+            EndFor
+            
+    
