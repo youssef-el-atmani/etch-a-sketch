@@ -23,3 +23,10 @@ function createGrid(gridSize)
 }
 
 createGrid(16);
+
+boxesContainer.addEventListener('mouseover', paintBox);
+
+function paintBox(event){
+    let targetBox = event.target;
+    targetBox.classList.add('paint');
+}

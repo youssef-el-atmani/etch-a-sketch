@@ -28,6 +28,9 @@ html {
 
 .boxesContainer .tiny-box {
     flex: 1;
-    background-color: white;
     border: 1px black solid;
+}
+
+.paint {
+    background-color: red;
 }
