@@ -21,3 +21,5 @@ function createGrid(gridSize)
         boxesContainer.appendChild(wideBoxesHolder[i]);
     }
 }
+
+createGrid(16);
