@@ -9,8 +9,8 @@ html {
 }
 
 #boxesContainer {
-    width: 700px;
-    height: 700px;
+    width: 960px;
+    height: 960px;
     margin: 30px auto;
 
     display: flex;
