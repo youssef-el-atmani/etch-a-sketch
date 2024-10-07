@@ -11,7 +11,7 @@ html {
 #boxesContainer {
     width: 700px;
     height: 700px;
-    margin: 40px auto;
+    margin: 30px auto;
 
     display: flex;
     flex-direction: column;
@@ -45,6 +45,10 @@ html {
     padding: 7px 14px;
     font-size: large;
     font-weight: bold;
+
+    display: block;
+    margin: 30px auto;
+
 }
 .resize:hover {
     cursor: pointer;
