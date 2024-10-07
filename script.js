@@ -1,6 +1,6 @@
 "use strict";
 
-const boxesContainer = document.querySelector('.boxesContainer');
+const boxesContainer = document.querySelector('#boxesContainer');
 const wideBoxesHolder = [];
 
 function createGrid(gridSize)
